@@ -57,6 +57,13 @@ public class HomePageTest extends TestBase {
 		contactsPage = homePage.clickOnContactsLink();
 	}
 	
+	@Test(priority=3)
+	public void verifygitAmit(){
+		//testUtil.switchToFrame();
+		System.out.println("GIT AMIT");
+	}
+	
+	
 	
 	
 	//@AfterMethod
